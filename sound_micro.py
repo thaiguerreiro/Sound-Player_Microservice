@@ -35,7 +35,7 @@ def playSound(sound_request):
 
 
 # Sets the volume for all future playSound calls
-@app.route('/setVolume/<volume>', methods=['GET'])
+@app.route('/setVolume/<volume>', methods=['POST'])
 def setVolume(volume):
     global VOLUME
     try:
