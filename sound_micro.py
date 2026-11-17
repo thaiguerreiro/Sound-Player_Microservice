@@ -8,10 +8,10 @@ app = Flask(__name__)
 
 #using dictionary to pair sound name with file path
 Sounds = {
-    'Victory_sound':"WAV files/Victory.wav",
+    'Victory_sound':"WAV files/Victory_sound.wav",
     'Game_over':"WAV files/Game_over.wav",
     'Click':"WAV files/Click.wav",
-    'Ding':"WAV files/Ding.wav",
+    'Ding':"WAV files/Ding.mp3",
     'Error':"WAV files/Error.wav",
     'Success':"WAV files/Success.wav"
 }
